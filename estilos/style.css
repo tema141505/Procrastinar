@@ -1,0 +1,49 @@
+body{
+    background-color: #1B1F2B;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    width:75%;
+    background-color: #1B1F2B;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.title{
+    font-size: xx-large;
+    flex: 1 1 0%;
+    padding: 20px;
+}
+.enlaces{
+    display: flex;
+    flex: 3 1 0%;
+    font-size: large;
+}
+.enlace{
+    margin: 5%;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#racha,#level{
+    background-color: #2c313d;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Funciones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-self: center;
+}
+.sesion{
+    flex: 2 1 0%;
+}
+.c{
+    width: 400px;
+    height: 150px;
+    background-color: #2c313d;
+}
